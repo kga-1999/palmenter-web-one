@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/palmentar-web-one/', // أضف هذا السطر أو عدله حسب اسم الريبو
+  base: '/', // اجعلها هكذا للنشر على Vercel
   server: {
     host: "::",
     port: 8080,
@@ -21,4 +21,3 @@ export default defineConfig({
     },
   },
 });
-
