@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/', // اجعلها منها هكذا للنشر على Vercel
+ base: process.env.VITE_BASE_PATH || "/palmenter-web-one",, // اجعلها منها هكذا للنشر على Vercel
   server: {
     host: "::",
     port: 8080,
