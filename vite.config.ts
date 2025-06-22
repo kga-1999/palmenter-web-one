@@ -5,12 +5,12 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/', // اجعلها هكذا للنشر على Vercel
+  base: '/', // اجعلها منها هكذا للنشر على Vercel
   server: {
     host: "::",
     port: 8080,
   },
-  plugins: [
+  plugins: [ //welcome/
     react(),
     // mode === 'development' &&
     // componentTagger(),
